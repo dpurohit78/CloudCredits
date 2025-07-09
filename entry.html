@@ -1,0 +1,33 @@
+<!-- 
+For quick introduction to the library check:
+
+https://itnext.io/how-to-create-interactive-terminal-like-website-888bb0972288
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+<link rel="stylesheet" href="styles.css">
+ <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: black;
+      color: white;
+    }
+    #terminal {
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+    <div id="terminal"></div>
+<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<script src="https://unpkg.com/figlet@1.6.0/lib/figlet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/isomorphic-lolcat"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/xml_formatting.js"></script>
+<script src="terminal.js"></script>
+</body>
+</html>
